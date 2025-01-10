@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+    text-decoration: none;
 }
 
 :root{
@@ -11,7 +15,178 @@
     --title1-color: rgba(14, 14, 14, 0.5);
 }
 
+
+
 body{
     background: #f2f2f2;
 }
+
+.body-content{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+}
+
+/* -------------header---------- */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 40px;
+}
+
+.btn-1{
+    width: 100px;
+    height: 50px;
+    border: 1.5px solid var(--bannar-btn-color);
+    border-radius: 6px;
+    color: #006A50;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn-1 a{
+    color: #006A50;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* -------------section-1---------------- */
+
+.bannar{
+    width: 100%;
+    height: fit-content;
+    background: var(--bannar-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 70px;
+    border-radius: 20px;
+}
+
+.bannar .left-content .title1{
+    color: var(--title1-color);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.title2{
+    font-size: 50px;
+    margin-bottom: 28px;
+}
+
+.ban-btn{
+    width: 250px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    background: #006A50;
+}
+
+.ban-btn a{
+    color: #fff;
+    font-weight: 500;
+}
+
+/* -------------section-2---------- */
+
+.pillar-sec{
+    width: 100%;
+    height: fit-content;
+    margin: 50px 0;
+}
+
+.sec-title{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.sec-boxes{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #0E0E0E26;
+    border-radius: 6px;
+}
+
+.box-icon{
+    width: 46px;
+    margin-bottom: 15px;
+}
+
+.box-title{
+    margin-bottom: 8px;
+}
+
+.box-para{
+    color: #0E0E0EB2;
+}
+
+.sec3-boxes{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------footer---------- */
+
+footer{
+    width: 100%;
+    height: fit-content;
+    margin-top: 500px;
+    text-align: center;
+}
+
+footer > h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.divider{
+    width: 80%;
+    height: 1px;
+    background: rgba(14, 14, 14, 0.1);
+    margin: auto;
+}
+
+.foot-icons{
+    margin: 20px 10px 20px;
+} 
 
