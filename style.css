@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bannar-color: #C6E4D6;
+    --card-back-color: #FFFFFF;
+    --bannar-btn-color: #006A50;
+    --title1-color: rgba(14, 14, 14, 0.5);
+}
+
+body{
+    background: #f2f2f2;
+}
+
