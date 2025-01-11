@@ -37,6 +37,15 @@ body{
     margin: 50px 0 40px;
 }
 
+.hd-title{
+    transition: 0.5s ease;
+}
+
+.hd-title:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
 .btn-1{
     width: 100px;
     height: 50px;
@@ -45,12 +54,13 @@ body{
     color: #006A50;
     font-weight: 500;
     font-size: 16px;
+    transition: 0.5s ease;
 }
 
-.btn-1 a{
-    color: #006A50;
-    font-weight: 500;
-    font-size: 16px;
+.btn-1:hover{
+    background: #006A50;
+    color: #fff;
+    cursor: pointer;
 }
 
 
@@ -78,6 +88,11 @@ body{
 .title2{
     font-size: 50px;
     margin-bottom: 28px;
+    transition: 1s ease;
+}
+
+.title2:hover{
+    transform: scale(1.1);
 }
 
 .ban-btn{
@@ -86,12 +101,19 @@ body{
     border-radius: 6px;
     border: none;
     background: #006A50;
-}
-
-.ban-btn a{
     color: #fff;
     font-weight: 500;
+    transition: 0.5s ease;
 }
+
+.ban-btn:hover{
+    background: none;
+    color: #006A50;
+    border: 1px solid #006A50;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 
 /* -------------section-2---------- */
 
@@ -122,6 +144,12 @@ body{
     padding: 30px;
     border: 1px solid #0E0E0E26;
     border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .box-icon{
@@ -247,6 +275,11 @@ thead{
     font-size: 20px;
 }
 
+.select{
+    display: flex;
+    justify-content: center;
+}
+
 tr, td{
     border: 1px solid #0E0E0E26;
     padding: 20px;
@@ -265,6 +298,13 @@ tr.th-row td{
     font-size: 16px;
     font-weight: 500;
     display: flex;
+    background: #C6E4D6;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.tb-btn:hover{
+    cursor: pointer;
 }
 
 .bx{
@@ -333,6 +373,13 @@ tr.th-row td{
     background: #006A50;
     color: #fff;
     margin-top: 20px;
+    transition: 0.5s ease;
+}
+
+.card-btn:hover{
+    transform: scale(1.08);
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .right-content{
@@ -415,6 +462,12 @@ input[type="text"]::placeholder{
     background: #006A50;
     color: #fff;
     font-size: 17px;
+    transition: .5s ease;
+}
+
+.sec7-btn:hover{
+    transform: scale(1.06);
+    cursor: pointer;
 }
 
 /* -------------section-8------------ */
@@ -466,6 +519,10 @@ input[type="email"]{
     border-bottom-right-radius: 6px;
 }
 
+.label:hover{
+    cursor: pointer;
+}
+
 
 /* -----------footer---------- */
 
@@ -493,4 +550,8 @@ footer{
 
 .foot-icons{
     margin: 0 10px;
+}
+
+.foot-icons:hover{
+    cursor: pointer;
 }
