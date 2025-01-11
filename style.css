@@ -201,7 +201,7 @@ body{
     border-radius: 10px;
     background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position: top-left --30px;
+    background-position: 31px 2.5px;
 }
 
 .sec4-content .div-tex{
@@ -232,8 +232,51 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70px;
-    color: #0E0E0E26;
+    /* font-size: 70px;
+    color: #0E0E0E26; */
+}
+
+table{
+    width: 95%;
+    height: 80%;
+    border-collapse: collapse;
+}
+
+thead{
+    background: #C6E4D6;
+    font-size: 20px;
+}
+
+tr, td{
+    border: 1px solid #0E0E0E26;
+    padding: 20px;
+    font-family: 16px;
+    font-weight: 500;
+}
+
+tr.th-row td{ 
+    border: none;  
+}
+
+.tb-btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 44px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+}
+
+.bx{
+    font-size: 24px;
+}
+
+.btn-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: none;
 }
 
 /* ------------section-6---------- */
